@@ -1,0 +1,37 @@
+                           ------* PYTHON *--------
+1.on the basis of syntax                                 PVM----JIT speed increase of python
+easy to learn
+2.huge community support
+3.Interpreter based
+4.Dynamicaly typed
+5.plateform independent
+6.huge  no of library support
+extension--->.py->source
+         .pyc-->byte-code
+
+Limitation---->disadvantage
+1. run time error due to dynamically behaviour.
+2.slow as compair to compiler based language.
+3.memory management 
+   
+
+   ---- Token---
+stack overflow for error find
+smalle unite of programs  that perform
+specific task/function is called token
+
+1.Keyword
+2.Punctuation
+3.Identifier
+4.Operator
+5.Literals
+
+
+-----in-built function----
+max()---->maximum value
+min()---->minimum value
+len()--->length 
+print()--->o/p
+input()--->run-time value
+type()--->date-type
+id()---->memory address
