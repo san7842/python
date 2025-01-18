@@ -35,3 +35,6 @@ print()--->o/p
 input()--->run-time value
 type()--->date-type
 id()---->memory address
+
+
+name of  an any object in python are called Identifier
