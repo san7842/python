@@ -38,3 +38,5 @@ id()---->memory address
 
 
 name of  an any object in python are called Identifier
+python call by reference
+bitwise Operator(&(and),|(or), ~(not), ^(x-or ),<<(left shift) ,>>(right shift))
