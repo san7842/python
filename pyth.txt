@@ -40,3 +40,53 @@ id()---->memory address
 name of  an any object in python are called Identifier
 python call by reference
 bitwise Operator(&(and),|(or), ~(not), ^(x-or ),<<(left shift) ,>>(right shift))
+left shift=no.*2**bit
+return value=arithmetic,assignment, bitwise
+return boolean=camparision(campaire value) true/false, logical ,identity( campair memory address true/false ),membership
+
+in-built function---->
+print()--chech output
+input()--->to take number input
+id()--->to check address
+type()--->to check data type
+min()---->
+max()----->
+len()---->
+sum()----->
+
+--------  Operator---------
+1.arithmetic--->(+, -, /, *, // ,% ,** )
+2.camparision--->(< ,> <=, >= ,== ,!= )
+3.assignment---->(=, += ,-= ,*= ,/= ,%= ,//= ,**=)
+4. identity
+  ( is, is not)
+5.membership
+  (in ,not in)
+6.Bitwise
+
+Bitwise Operator.
+
+ Binary---(0,1)
+ octal--->(0,...7)
+ Decimal---->(0,...9)
+ hexadecimal----->(0,...9 A....F a....f)
+
+
+ ------Literals------
+ type of Literals--->
+ |-->numeric 
+ |          |---->integer
+ |          |----->float
+ |          |----->complex
+ |---->string
+ |---->List 
+ |---->tuple
+ |---->set
+ |---->frozenset
+ |---->dict
+
+ string---->
+  syntax: collection of character
+  represented in  1.-->' ' single-line
+                  2.-->" "  string
+                  3.-->'''  '''  multi-line string
