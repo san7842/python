@@ -90,3 +90,37 @@ Bitwise Operator.
   represented in  1.-->' ' single-line
                   2.-->" "  string
                   3.-->'''  '''  multi-line string
+
+         ------ 
+           list-------
+
+
+           tuple-------
+
+     note -->numeric(integer, float, complex)
+      ( string,list, tuple---> oredered collection)
+     (set, frozenset   --->unique element hold, unordered collection)
+     (dict----> mapped-data)
+
+            ------ Type casting-------
+            int()
+            str()
+            list()
+            dict()
+            tuple()
+            set()
+            frozenset()
+
+     -------   Data types -------
+     string-->collection of character
+              oredered collection
+              indexing support
+              slicing support
+              immutable in nature
+              represented in -->
+                     1.' ' single-line string
+                     2 " "  single-line string
+                     3.''' ''' multi-line string
+                     x='sandeep'
+                     print(x)
+                     print(type(x))
