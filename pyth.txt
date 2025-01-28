@@ -124,3 +124,21 @@ Bitwise Operator.
                      x='sandeep'
                      print(x)
                      print(type(x))
+                  in-built function for string
+                   1.max()
+                   2.min()
+                   3.len()
+                   4.id()
+                   5.ord()
+                   6.chr()
+       ------- in-build method   ------- 
+       1.upper()
+       2.lower()
+       3.title()
+       4.capitalize()   
+       5.join()
+       6.split()
+       7.index()
+       8.count()
+       9.find
+       10. swapcase    
