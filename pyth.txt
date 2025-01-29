@@ -136,9 +136,26 @@ Bitwise Operator.
        2.lower()
        3.title()
        4.capitalize()   
-       5.join()
-       6.split()
+       5.join()--->syntax-('char'.join(object) single par take)
+       6.split()-->(by default space to break( split) and space (or character) replace by comma) syntax--("char',how many time)
        7.index()
        8.count()
        9.find
-       10. swapcase    
+       10. swapcase  
+
+      -----list ----- 
+    =>  collection of  an element ,ordered collection,homogenous,and herogenous
+    => indexing support
+    => slicing support
+    => mutable nature
+    => represented in [] with comma sepersted element
+
+ ---- function for list 
+                   1.max()(same type of data homogenous  )
+                   2.min()(same type of data homogenous  )
+                   3.len()( both homo and hetro)
+                   4.id()( both)
+                   5.sum()(only integer  )
+                   6.type( )
+                   7.list()
+                   
