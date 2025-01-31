@@ -60,7 +60,17 @@
 # print(l)
 
 #l.sort(reverse=true)decending order
-l=[10,20,30,40,10]
-l.sort(reverse=True)
-print(l)
+# l=[10,20,30,40,10]
+# l.sort(reverse=True)
+# print(l)
+# l=[10,20,30]
+# l1=[10,20,30]
+# print(id(l),id(l1))
+# l=(10,20,30)
+# l1=(10,20,40)
+# print(id(l),id(l1))
+# smallest and highest element
+# l=[10,20,30,800,200]
+l=(),
+print(type(l))
  

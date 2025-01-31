@@ -85,17 +85,73 @@ Bitwise Operator.
  |---->frozenset
  |---->dict
 
- string---->
-  syntax: collection of character
-  represented in  1.-->' ' single-line
+        string---->
+            syntax: collection of character
+             represented in  1.-->' ' single-line
                   2.-->" "  string
                   3.-->'''  '''  multi-line string
 
          ------ 
-           list-------
+        list-------=>collection of objects
+           syntax     =>represent by []
+           with comma(,) seperated objects.
+           object-->homogeneous-(same data-type)
+                  |-->hetrogeneous->(diff data-type)
+                  l1=[1,2,3]
+                  l2=[1,2,3]
+                  print(id(l1),id(l2))---->same address so mutable data-type
+                                   
 
 
-           tuple-------
+        tuple-------
+           =>collecction of objects(element)
+           =>represented in () with comma seperated object
+           =>immutable in nature
+           x=('s')
+           y=('s')
+           print(id(x),id(y))---> diff address so immutable dat type
+
+
+        dict---------
+
+
+        set-------
+           =>collection of unique objects
+           =>represent in {} with comma seperated objects
+           =>unordered collection
+           =>mutable in nature
+
+        frozenset--------
+           fset1=frozenset({'sandeep',10,20})
+           fset2=frozenset({'sandeep',10,20})
+           print(id(fset1),id(fset2))---diff memory address so immutable data type
+           =>immutable in nature
+
+
+           immutable-----|     mutable-----
+          1.integer      |  1. list
+          2.string       |  2. dict
+          3. tuple       |  3. set
+          4.frozenset    |
+          5.Boolean      |
+
+
+       indexing-----
+
+          ordered collection----
+          syntax--->collection.index('obj',start,stop)
+               --->collection.index('obj',start)
+               ---->collection.index('obj')
+
+          =>+ve indexing
+          =>-ve indexing
+
+      -ve indexing ---------               +ve indexing----             
+          =>start with -1                   =>start with 0
+          =>read direction L<--R            =>read direction L--->R
+          =>write direction L--->R          =>write direction L---->R 
+          =>end--(end+1)                    =>end--(end-1)
+
 
      note -->numeric(integer, float, complex)
       ( string,list, tuple---> oredered collection)
@@ -171,4 +227,33 @@ Bitwise Operator.
               9.count()
               10.reverse( reverse list)
               11.sort( to arrenge acending order)
+
+  ------ tuple---------
+  =>collection of element
+  =>ordered collection 
+  =>indexing support
+  =>slicing support
+  =>immutable in nature
+  =>represent in () with comma seperated element
+
+    function of tuple--------
+        1.max()
+        2.min()
+        3.sum()
+        4.len()
+        5.id()
+        6.type()
+        7.tuple()
+      method of tuple--------
+       1. index()
+       2. count()
+
+   dict---------
+   =>collection of "key":'value' pairs
+   =>where 'key' must be unique
+   =>and value may be duplicate
+   =>indexing not support
+   =>slicing not support
+   =>mutable in nature
+   =>represent in {}with comma seperater element
                    
