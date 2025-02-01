@@ -7,5 +7,9 @@
 # print(id(d))
 # print(type(d))
 # print((d))
-d={'Neeraj':'Neeraj','Tge':37,'Quali':'M.Tech'}
-print(max(d))
+# d={'Neeraj':'Neeraj','Tge':37,'Quali':'M.Tech'}
+# print(max(d))
+d={'Neeraj':['Neeraj',20,30],'Tge':37,'Quali':'M.Tech'}
+print(d["Neeraj"][2])
+
+
