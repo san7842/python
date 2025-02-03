@@ -1,0 +1,6 @@
+npm create vite@latest app7pm
+ react
+javascript
+cd app7pm
+npm install
+npm run dev

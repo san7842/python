@@ -256,4 +256,18 @@ Bitwise Operator.
    =>slicing not support
    =>mutable in nature
    =>represent in {}with comma seperater element
+
+   method of dict-----
+   copy()
+   clear()
+   keys()
+   values()
+   items()
+   get()
+   fromkeys()
+   update()
+   setdefault()
+   pop()
+   popitem()
+
                    
