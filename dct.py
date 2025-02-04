@@ -23,15 +23,18 @@
 # print(d)
 # d.popitem()# remove last items
 # print(d)
-d1=[10,20,30,40,50,60,10,20]
-#d1="sandeep"
-x=dict.fromkeys(d1,12)
-print(x)
+# d1=[10,20,30,40,50,60,10,20]
+# #d1="sandeep"
+# x=dict.fromkeys(d1,12)
+# print(x)
 # d.setdefault("Neeraj","Quali")
 # print(d)
 # d.update({"Neeraj":"sandeep","gread":"veer"})
 # print(d)
 
-
-
+d={"name":[10,20,30,500],"hello":(10,20,30,40)}
+print(d.get("hello"))
+print(d.items())
+print(d.popitem())
+print(d)
 

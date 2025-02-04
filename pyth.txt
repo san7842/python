@@ -270,4 +270,30 @@ Bitwise Operator.
    pop()
    popitem()
 
+   set--------
+   =>collection of unique element
+   =>unodered collection
+   =>indexing not support
+   =>slicing not support
+   =>mutable in nature
+   =>represent in {} with comma (,)
+   seperated value
+
+   function of set----
+   min()
+   max()
+   type()
+   sum()
+   len()
+   id()
+
+   method of set----
+   copy()
+   clear()
+   add()
+   remove()
+   discard()
+   pop()
+
+
                    
