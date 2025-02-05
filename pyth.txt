@@ -294,6 +294,48 @@ Bitwise Operator.
    remove()
    discard()
    pop()
+   
+   -------frozenset----
+   =>collection of unique element
+   =>freeze any collection(list,set,tuple,string)
+   =>unorderedcollection
+   =>indexing not allowed
+   =>immutable in nature
+
+   ----method of frozenset----
+   copy()
+   difference()
+
+
+   -----data type-----
+   interger--int()  in-built
+   float--float()
+   complex--complex()
+   string--str()
+   list---list()
+   tuple--tuple()
+   dict--dict()
+   set---set()
+   frozenset--frozenset()
+   boolean--bool()
+   range---range()
+     in-built function
+     print()
+     input()
+     max()
+     min()
+     sum()
+     len()
+     type()
+     id()
+
+               controle-statement
+     conditional statement      looping/iterative statement      transfer statement         
+       if                                 for loop                        contineu
+      if else                             while  loop                     break
+      if elif                                                              pass
+      if elif else
+
 
 
                    
