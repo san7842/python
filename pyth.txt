@@ -336,6 +336,11 @@ Bitwise Operator.
       if elif                                                              pass
       if elif else
 
-
+1.if
+  syntax:
+    if(condition):
+      indent-statement
+    else:#condition depend on if condition
+      indent-statement
 
                    
