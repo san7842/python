@@ -343,4 +343,10 @@ Bitwise Operator.
     else:#condition depend on if condition
       indent-statement
 
-                   
+    loop-------
+    =>block of code repeated in sequentially  
+    while---infinite iteration/finite 
+      syntax---initialize
+               condition
+                   increament 
+    for---finite iteration            
