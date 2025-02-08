@@ -349,4 +349,8 @@ Bitwise Operator.
       syntax---initialize
                condition
                    increament 
-    for---finite iteration            
+    for---finite iteration    
+
+
+          
+    
