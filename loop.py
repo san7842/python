@@ -24,7 +24,7 @@ while(i<=n):
       print(i,end="+")
       sum1+=i
      else:
-         print(i)
+         print(i,end='=')
          sum2+=i
    i+=1
 sum=sum1+sum2
@@ -59,5 +59,6 @@ n=int(input("enter number"))
 i=1
 while(i<=n):
    if(i%2!=0):
-      print(i,end=",")
+      if(i<n):
+       print(i,end=",")
    i+=1

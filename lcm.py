@@ -18,14 +18,23 @@
 #     i+=1
 #     q=p*i
 # print("lcm is",q)
-x=int(input("enter number"))
-y=int(input("enter number"))
-z=int(input("enter number"))
-p=min(x,y,z)
-q=1
-i=2
-while(i<p):
-    if x%i==0 and y%i==0 and z%i==0:
-        q*=i
-    i+=1
-print("hcf is",q)
+# x=int(input("enter number"))
+# y=int(input("enter number"))
+# z=int(input("enter number"))
+# p=min(x,y,z)
+# q=1
+# i=2
+# while(i<p):
+#     if x%i==0 and y%i==0 and z%i==0:
+#         q*=i
+#     i+=1
+# print("hcf is",q)
+# x=int(input("enter any number"))
+# y=int(input("enter any number"))
+# m=min(x,y)
+# while m>0:
+#     if(x%m==0 and y%m==0):
+#         hcf=m
+#         break
+#     m=m-1
+# print("hcf is =",hcf)

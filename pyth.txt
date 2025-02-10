@@ -349,7 +349,9 @@ Bitwise Operator.
       syntax---initialize
                condition
                    increament 
-    for---finite iteration    
+    for---finite iteration  
+     To generate any collection
+     in python  we use range() 
 
 
           
