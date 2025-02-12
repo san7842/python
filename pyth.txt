@@ -353,6 +353,11 @@ Bitwise Operator.
      To generate any collection
      in python  we use range() 
 
+     ---transfer statement-------
+     break--exit from loop-body
+     contineu--skip current iteration
+     pass-- skip particular block
+
 
           
     
