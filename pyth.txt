@@ -358,6 +358,22 @@ Bitwise Operator.
      contineu--skip current iteration
      pass-- skip particular block
 
-
+function----
+  reusability,
+   type of function
+      in-built-->
+      user define function
+         declaration of function
+         calling of the function
+           
+           declaration----
+            def functionname(parameter(optional)):(requier) (parameter static function)
+                 ----------------
+                 ----------------
+                        |
+                        |
+                      return ---(optional)
+            res=functionname(argument)
+            print(res)
           
-    
+     
