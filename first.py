@@ -9,9 +9,9 @@
 # print(a&b)
 # print(a|b)
 # print(~a)
-x=10
-y=20
+# x=10
+# y=20 
 # print(x^y)
 # print(x<<3)
-print(10>>2)
-print(y>>2)
+# print(10>>2)
+# print(y>>2)

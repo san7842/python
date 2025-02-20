@@ -375,5 +375,26 @@ function----
                       return ---(optional)
             res=functionname(argument)
             print(res)
-          
-     
+
+
+     ------advance python--------
+     higher order function
+       map()
+       filter()
+       reduce()
+    lambda function
+    decorate
+    generator
+    OOps
+    sql database connectivity(CRUD)
+
+    higher oreder function--
+    l1=[1,2,3,4,5,6]   [1,4,9,16,25,36]
+    len of i/p element  equal to len of o/p element 
+     than use map mathod      
+      len of i/p element (is always greater than or  equal) to len of o/p element
+        than use filter()
+  l=[1,2,3,4,5,6]
+  o/p element is always equal to one element
+  than use reduce()
+  ex---max,min,sum
