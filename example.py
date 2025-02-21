@@ -17,11 +17,20 @@
 #     print(f'{n} is negative')
 # else:
 #     print(f'{n} is zero')
-#====================
-#n=eval(input("enter any number"))
+#===========swaping=========
+# m=eval(input("enter any "))
+# n=eval(input("enter any "))
+# m,n=n,m
+# print(m)
+# print(n)
 #=========================
 # n=int(input("enter any number"))
-# squre_root(n)
+# sqr=n**0.5
+# print("square root",sqr)
+#=============cube root===========
+# n=int(input("enter any number"))
+# sqr=n**(1/3)
+# print("cube root",sqr)
 #======================
 # x=int(input("enter any number"))
 # y=int(input("enter any number"))
@@ -117,14 +126,19 @@
 #     print("sandeep")
 #     i+=1
 #============vowels and consonant====
-# n=input("enter world")
-# i=1
-# while(i<=n):
-#     if(i in AEIOUaeiou):
-#         print(i,end=" ")
+# n=input("enter word")
+# vol=0
+# const=0
+# i=0
+# while(i<len(n)):
+#     x=( 'A','E','I','O','U','a','e','i','o','u')
+#     y=n[i]
+#     if(y in x):
+#         vol+=1
 #     else:
-#         print(f'{i}constant')
+#         const+=1
 #     i+=1
+# print('vol:',vol,'const:',const)
 #===================
 # l=[10,20,30,40,50]
 # a=len(l)
@@ -140,14 +154,14 @@
 #     print(t[i]+5)
 #     i+=1
 #=================
-s1="sandeep"
-a=len(s1)
-l=[]
-i=0
-while(i<a):
-   l.append(s1[i])
-   i+=1
-print(l)
+# s1="sandeep"
+# a=len(s1)
+# l=[]
+# i=0
+# while(i<a):
+#    l.append(s1[i])
+#    i+=1
+# print(l)
 #============================
 
 
@@ -183,10 +197,37 @@ print(l)
 # for i in range(1,11):
 #     print(i*n)
 #===============================
+
 # l=[]
 # for i in l:
-#     n=eval(input("enter element"))
 #     l1=l.append(i)
 #     print(l1)
 #==========================
+# l=[1,2,7,4,5,6]
+# for i in l:
+#     print(i)
 
+#==========================
+# n=int(input("enter number"))
+# n1=str(n)
+# count=0
+# for i in n1:
+#     count+=1
+# print(count)
+#===================amstrong=============
+n=int(clearinput("enter any number"))
+x=n
+y=n
+digit=0
+sum=0
+while n>0:
+    n=n//10
+    digit+=1
+while x>0:
+    last_digit=x%10
+    sum+=last_digit**digit
+    x=x//10
+if(sum==y):
+    print("armstrong")
+else:
+    print("not armstrong")
