@@ -32,9 +32,9 @@
 # d.update({"Neeraj":"sandeep","gread":"veer"})
 # print(d)
 
-d={"name":[10,20,30,500],"hello":(10,20,30,40)}
-print(d.get("hello"))
-print(d.items())
-print(d.popitem())
-print(d)
+# d={"name":[10,20,30,500],"hello":(10,20,30,40)}
+# print(d.get("hello"))
+# print(d.items())
+# print(d.popitem())
+# print(d)
 

@@ -215,19 +215,149 @@
 #     count+=1
 # print(count)
 #===================amstrong=============
-n=int(clearinput("enter any number"))
-x=n
-y=n
-digit=0
-sum=0
-while n>0:
-    n=n//10
-    digit+=1
-while x>0:
-    last_digit=x%10
-    sum+=last_digit**digit
-    x=x//10
-if(sum==y):
-    print("armstrong")
-else:
-    print("not armstrong")
+# n=int(input("enter any number"))
+# x=n
+# y=n
+# digit=0
+# sum=0
+# while n>0:
+#     n=n//10
+#     digit+=1
+# while x>0:
+#     last_digit=x%10
+#     sum+=last_digit**digit
+#     x=x//10
+# if(sum==y):
+#     print("armstrong")
+# else:
+#     print("not armstrong")
+#==================reverse====================
+# str=eval(input("enter any"))
+# rev=""
+# for i in str:
+#     rev=i+rev
+# print("rev:",rev)
+#==============palindrome======
+# str=(input("enter any number"))
+# a=str
+# b=str[: :-1]
+# if(b==a):
+#     print(f'{a} is palindrome')
+# else:
+#     print(f'{a}is not palindrome')
+#=========================
+# str=(input("enter any number"))
+# a=str
+# rev=""
+# for i in str:
+#     rev=i+rev
+# if(rev==a):
+#     print(f'{a} is palindrome')
+# else:
+#     print(f'{a}is not palindrome')
+
+#==============series==even or odd=========
+# n=eval(input("enter any series"))
+# even=0
+# odd=0
+# for i in n:
+#     if(i%2==0):
+#         even+=1
+#     else:
+#         odd+=1
+# print("even",even)
+# print("odd",odd)
+#=========================
+# n=eval(input("enter any series"))
+# for i in n:
+#     if(i%2==0):
+#         even+=1
+#     else:
+#         odd+=1
+# print("even",even)
+# print("odd",odd)
+        
+#=======================except prime no===========
+# l=eval(input("enter any"))
+# for i in range(l+1):
+#     if(i>1):
+#         for j in range(2,i):
+#             if(i%j==0):
+#              print(i,end=" ")
+#              break
+#=====fibonaci================
+# n=int(input("enter any number"))
+# a=0
+# b=1
+# print(a,b,end=" ")
+# for i in range(2,n+1):
+#     c=a+b
+#     print(c,end=" ")
+#     a=b
+#     b=c
+            
+#========factorial===========
+# n=int(input("enter any number"))
+# f=1
+# for i in range(1,n+1):
+#     f*=i
+# print(f)
+
+# n=int(input("enter any number"))
+# a=0
+# b=1
+# print(a,b,end=" ")
+# for i in range(1,n+1):
+#    c=a+b
+#    print(c,end=" ")
+#    a=b
+#    b=c
+# n=int(input("enter any"))
+# x=n
+# y=n
+# sum=0
+# dig=0
+# while n>0:
+#     n=n//10
+#     dig+=1
+    
+# while(x>0):
+#    last_dig=x%10
+#    sum+=last_dig**dig
+#    x=x//10
+# if(sum==y):
+#     print("armstrong")
+# else:
+#     print("not a armstrong")
+
+# n=(input("enter any"))
+# rev=""
+# for i in n:
+#     rev=i+rev
+# if(rev==n):
+#     print("palindrome")
+# else:
+#     print("not a palindrome")
+# n=int(input("enter any"))
+# a=n
+# rev=""
+# while n>0:
+#     last_dig=n%10
+#     rev=rev*10+last_dig
+#     n=n//10
+# if(rev==a):
+#     print("palind")
+# else:
+#     print("not palind")
+# n=15
+# a=0
+# b=1
+# while a<=n:
+#     print(a)
+#     a,b=b,a+b
+#================== 
+s1=input("enter any ")
+l1=[]
+for i in s1:
+    x=ord(i)
+    l1.append(x)
