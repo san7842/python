@@ -356,8 +356,40 @@
 #     print(a)
 #     a,b=b,a+b
 #================== 
-s1=input("enter any ")
-l1=[]
-for i in s1:
-    x=ord(i)
-    l1.append(x)
+# s1=input("enter any ")
+# l1=[]
+# for i in s1:
+#     x=ord(i)
+#     l1.append(x)
+#     y=(65-90 and 97-122 and 48-57 and 58-64)
+#     if(x in y):
+#         print("strong")
+#     else:
+#         print("not ")
+#======================================
+# n=(input("enter any "))
+# x=n
+# rev=""
+# for i in n:
+#     rev=i+rev
+# if(rev==x):
+#     print("palindrome")
+# else:
+#     print("not palindrome")
+#==================
+# n=int(input("enter any number"))
+# a=0
+# b=1
+# print(a,b,end=" ")
+# for i in range(1,n+1):
+#     c=a+b
+#     print(c,end=" ")
+#     a=b
+#     b=c
+#===============================
+n=int(input("enter any number"))
+a=0
+b=1
+while(a<=n):
+    print(a,end=" ")
+    a,b=b,a+b
