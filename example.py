@@ -356,16 +356,16 @@
 #     print(a)
 #     a,b=b,a+b
 #================== 
-# s1=input("enter any ")
-# l1=[]
-# for i in s1:
-#     x=ord(i)
-#     l1.append(x)
-#     y=(65-90 and 97-122 and 48-57 and 58-64)
-#     if(x in y):
-#         print("strong")
-#     else:
-#         print("not ")
+s1=input("enter any ")
+l1=[]
+for i in s1:
+    x=ord(i)
+    l1.append(x)
+    y=(48,122)
+    if(x in y):
+        print("strong")
+    else:
+        print("not ")
 #======================================
 # n=(input("enter any "))
 # x=n
@@ -387,9 +387,16 @@
 #     a=b
 #     b=c
 #===============================
-n=int(input("enter any number"))
-a=0
-b=1
-while(a<=n):
-    print(a,end=" ")
-    a,b=b,a+b
+# n=int(input("enter any number"))
+# a=0
+# b=1
+# while(a<=n):
+#     print(a,end=" ")
+#     a,b=b,a+b
+#=====================
+x=eval(input("enter any collection"))
+l1=[]
+for i in x:
+    y=i**2
+    l1.append(y)
+print(l1)
