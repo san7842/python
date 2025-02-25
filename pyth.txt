@@ -398,3 +398,12 @@ function----
   o/p element is always equal to one element
   than use reduce()
   ex---max,min,sum
+
+
+
+lambda----
+    A function without name
+    use lambda.Keyword
+    it takes n number of argument
+    but excute only single line of expression
+     syntax lambda argument:expression
