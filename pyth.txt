@@ -408,4 +408,4 @@ lambda----
     but excute only single line of expression
      syntax lambda argument:expression
 generator------is function
-     yield  ----value ko -hold  karta hai
+     yield  ----value ko -hold   karta hai 

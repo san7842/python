@@ -15,8 +15,10 @@
 # print(x>y and y>z) 
 # str1="neeraj"
 # print('n' in str1 )
-x=[10]
-y=[10]
+x=(10,12)
+y=(10,10)
 print(id(x))
-print(id(y))
-print(x is y)# object check address by identity operator is , is not
+print(id(x))
+print(type(x))
+print(type(x))
+#print(x is y)# object check address by identity operator is , is not
