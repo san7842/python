@@ -10,4 +10,4 @@ res=a(x,y)
 print(res)
 #collection of multiple or singlec file is called module
 #collection of module with init .py is called  package
-#collection of folder with 
+#collection of folder with ;
